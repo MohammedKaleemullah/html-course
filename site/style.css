@@ -4,6 +4,6 @@ li a {
 li {
 	list-style: none;
 }
-body {
-	font-size: 90%;
+body nav{
+	font-size: 14px;
 }
