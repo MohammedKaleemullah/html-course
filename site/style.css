@@ -1,9 +1,56 @@
-li a {
-	text-decoration: none;
+* {
+    text-decoration: none;
+    list-style: none;
 }
-li {
-	list-style: none;
+html {
+	background: #fceed1;
 }
-body nav{
-	font-size: 14px;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+	text-align: center;
+	color: #2d545e;
+	font-family: Lucida Handwriting;
+}
+
+nav ul {
+    
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: Georgia;
+    font-size: 1.5em;
+}
+section article{
+		font-family: Monaco;
+}
+section article h2{
+	font-size: 1.5em;
+	font-weight: normal;
+
+}
+section article p{
+	margin-left: 20px;
+}
+aside{
+	font-family: Garamond;
+	font-weight: normal;
+}
+aside li{
+	text-align: right;
+	display: inline-block;
+	margin-right: 15px;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
