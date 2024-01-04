@@ -1,1 +1,35 @@
-abcde
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #FFE9FE ;
+}
+hr{
+	margin: 25px auto;
+	width: 80%;
+	border: 2px solid #625766;
+}
+.navbar{
+	border-radius:0;
+}
+.row{
+	margin-bottom: 20px;
+}
+.row>div{
+	margin-bottom: 15px;
+}
+h2,h4{
+	text-align: center;
+	font-family: 'Rubik Maps', system-ui;
+	font-weight: bolder;
+}
+h2{
+	font-size: 3em;
+}
+p{
+	background: #E4D6EA;
+	border-radius: 10px;
+	font-size: 14px;
+}

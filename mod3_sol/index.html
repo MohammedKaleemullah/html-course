@@ -1,15 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Kaleem's Restaurant</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navlists">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Food, LLC</a>
+			</div>
+			<div class=" collapse navbar-collapse" id="navlists">
+				<ul class="nav navbar-nav visible-xs">
+					<li><a href="#Chicken">Chicken </a></li>
+					<li><a href="#Beef">Beef </a></li>
+					<li><a href="#Shushi">Shushi </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<h2 class=" text-center">Our Menu</h2>
+		</div>
+		<hr>
+		<div id="Menus" class="row">
+			<div id="Chicken" class="col-lg-4 col-md-6">
+				<h4  class="text-center">Chicken</h4>
+				<p class="text-center">Chicken, scientifically known as Gallus gallus domesticus, is one of the most widely consumed and versatile poultry meats globally. Raised for both meat and eggs, chickens are domesticated descendants of the red junglefowl. These birds are prized for their lean white meat, which is a rich source of high-quality protein. Chicken can be prepared in numerous ways, from roasting and grilling to frying and boiling, making it a staple in various cuisines around the world. Beyond its culinary significance, chickens play a crucial role in agriculture by contributing to the ecosystem through pest control and fertilization. With a relatively short reproduction cycle, adaptability, and efficiency in converting feed into protein, chickens have become a cornerstone of the global food industry, providing sustenance to billions of people.</p>
+			</div>
+			<div id ="Beef" class="col-lg-4 col-md-6">
+				<h4  class="text-center">Beef</h4>
+				<p class="text-center">Beef is a popular and widely consumed meat derived from cattle, primarily cows and steers. Renowned for its rich flavor and nutritional content, beef is a significant source of high-quality protein, essential nutrients such as iron and zinc, and various B vitamins. The meat can be prepared in various ways, including grilling, roasting, stewing, and braising, leading to a plethora of culinary dishes across cultures. Beyond its role as a staple food, cattle also contribute to agriculture through activities such as milk production and as working animals in some regions. However, beef consumption has raised environmental concerns due to its impact on deforestation, greenhouse gas emissions, and resource-intensive production processes, prompting discussions on sustainable and responsible beef production practices.</p>
+			</div>
+			<div id="Shushi" class="col-lg-4 col-md-12">
+				<h4  class="text-center">Sushi</h4>
+				<p class="text-center">Sushi is a traditional Japanese dish that has gained global popularity for its unique combination of vinegared rice, raw or cooked seafood, and various ingredients like vegetables and seaweed. The word "sushi" refers to the seasoned rice used in the dish, which is often accompanied by ingredients like fresh fish, shellfish, and vegetables. There are several types of sushi, including nigiri (hand-pressed sushi with a small amount of rice topped with fish or other ingredients), sashimi (thin slices of raw fish), maki , and more. Wasabi, soy sauce, and pickled ginger are commonly served as accompaniments to enhance the flavors. Sushi has become a global culinary sensation, with sushi bars and restaurants offering diverse and creative interpretations of this traditional Japanese cuisine in many parts of the world.</p>
+			</div>
+		</div>
+		<hr>
+	</div>
 </body>
 </html>
